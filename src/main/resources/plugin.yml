@@ -1,0 +1,11 @@
+name: Test
+version: '${project.version}'
+main: me.danielwest.test.Test
+api-version: 1.19
+commands:
+  fly:
+    description: flying is fun
+    aliases: flying
+  testitem:
+    description: die
+    aliases: item
